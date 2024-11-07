@@ -1,15 +1,37 @@
 .menuCabezera{
-    background-color: #be1622;
+    background-color: #aadae5;
     width: 100%;
 }
 *{
     padding 0;
     margin: 0;
 }
+.listaMenu li {
+    display: inline;
+    padding: 10px;
+    border-right: solid 2px black;
+}
+.listaMenu li:last-child{
+    border-right: none;
+}
+
+.listaMenu{
+    padding: 10px;
+    text-align: right;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+Li a{
+    text-decoration: none;
+}
+Li a:hover{
+    color: #E2430C;
+    background: #E2430C;
+}
 .banner{
     width: 100%;
-    height: 120px;
-    background-color: #1d70b8;
+    height: 350px;
+    background-image:url("../imagenes/1x/Recurso\ 1.png")
 }
 .marcoColumnas{
     display: flex;
