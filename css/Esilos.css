@@ -73,7 +73,7 @@ Li a:hover{
     padding: 10px;
 }
 form{
-    width: 80%;
+    width: 50%;
     padding: 15px;
     margin: auto;
 }
@@ -81,13 +81,34 @@ input textarea{
     width: 50%;
     border-radius: 5px 
 }
-input{
-    width: 50%;
+input[type=text]{
+    width: 100%;
     padding: 10px;
     border-radius: 5px;
     margin: 10px;
 }
 textarea{
-    width: 50%;
+    width: 100%;
     margin: 10px;
+    height: 100px;
+}
+input[type=submit]{
+    padding: 5px;
+    background: rgb(20, 140, 30,0.3);
+    width: 100%;
+    margin: auto;
+}
+input[type=submit]:hover{
+    background-color: rgb(20, 140, 30,0.8);
+    cursor: pointer;
+}
+li a img{
+    width: 20px;
+}
+li a img:hover{
+    background-color: none;
+    opacity: 30%;
+}
+.Derechos{
+    padding: 15px;
 }
